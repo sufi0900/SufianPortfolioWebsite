@@ -1,0 +1,171 @@
+button {
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 15px;
+  display: inline-block;
+  text-align: center;
+  user-select: none;
+  font-weight: 600;
+  border-radius: 4px;
+  color: #ffffff;
+  border: 1px solid #14877c;
+  background-color: #14877c;
+  cursor: pointer;
+  margin: 0px 15px;
+  min-width: 100px;
+}
+
+button:hover {
+  background: #14877c;
+  color: #ffffff;
+}
+@media only screen and (min-width: 480px) and (max-width: 788px) {
+  .slider0 {
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  .mobiletab {
+    display: block;
+  }
+  .gira1 {
+    display: block;
+  }
+  .grial1 {
+    width: 100%;
+    display: block;
+  }
+  .grid09 {
+    display: block;
+    bottom: 350px;
+    position: relative;
+  }
+  .one h1 {
+    font-size: 1.5rem;
+    line-height: 30px;
+    margin: 0 0 15px;
+  }
+  .one p {
+    color: white;
+    width: 60%;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+
+    position: relative;
+  }
+  .two p,
+  .two span {
+    font-size: 20px;
+    /* display: inline-block;
+    color: orange;
+    position: relative;
+    white-space: nowrap;
+    position: relative; */
+    /* left: 11%; */
+  }
+
+  .five {
+    width: 100%;
+
+    border: 50px solid transparent;
+    border-image: url("./tablet-16319.png") 188 stretch;
+  }
+  .gri2 {
+    width: 100%;
+  }
+  .gri09 {
+    right: 0px;
+  }
+  .gri091 {
+    left: 0px;
+  }
+  .grial1 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+  .slider0 {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  .mobiletab {
+    display: block;
+  }
+  .gri09 {
+    right: 0px;
+  }
+  .gri091 {
+    left: 0px;
+  }
+  .gira1 {
+    display: block;
+  }
+  .gri2 {
+    width: 100%;
+  }
+  .grial1 {
+    width: 100%;
+  }
+  .tablet {
+    display: none;
+  }
+  .two p,
+  .two span {
+    font-size: 20px;
+    /* display: inline-block;
+    color: orange;
+    position: relative;
+    white-space: nowrap;
+    position: relative; */
+    /* left: 11%; */
+  }
+  .one h1 {
+    font-size: 1.5rem;
+    line-height: 30px;
+    margin: 0 0 15px;
+  }
+  .one p {
+    color: white;
+    width: 60%;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+
+    position: relative;
+  }
+  .five {
+    padding: 10px;
+    border: 2px solid black;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .slider0 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .slider0 {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+}
